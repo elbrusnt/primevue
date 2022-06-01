@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 #/dist
-/resources
+#/resources
 #/components
 package-lock.json
 
