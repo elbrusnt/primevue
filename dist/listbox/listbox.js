@@ -488,7 +488,7 @@ this.primevue.listbox = (function (utils, api, Ripple, VirtualScroller, vue) {
       }
     }
 
-    var css_248z = "\n.p-listbox-list-wrapper {\n    overflow: auto;\n}\n.p-listbox-list {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n}\n.p-listbox-item {\n    cursor: pointer;\n    position: relative;\n    overflow: hidden;\n}\n.p-listbox-item-group {\n    cursor: auto;\n}\n.p-listbox-filter-container {\n    position: relative;\n}\n.p-listbox-filter-icon {\n    position: absolute;\n    top: 50%;\n    margin-top: -.5rem;\n}\n.p-listbox-filter {\n    width: 100%;\n}\n.me-4{\n    margin-right: 1.5rem;\n}\n";
+    var css_248z = "\n.p-listbox-list-wrapper {\n    overflow: auto;\n}\n.p-listbox-list {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n}\n.p-listbox-item {\n    cursor: pointer;\n    position: relative;\n    overflow: hidden;\n}\n.p-listbox-item-group {\n    cursor: auto;\n}\n.p-listbox-filter-container {\n    position: relative;\n}\n.p-listbox-filter-icon {\n    position: absolute;\n    top: 50%;\n    margin-top: -.5rem;\n    cursor: pointer;\n}\n.p-listbox-filter {\n    width: 100%;\n}\n.me-4{\n    margin-right: 1.5rem;\n}\n";
     styleInject(css_248z);
 
     script.render = render;

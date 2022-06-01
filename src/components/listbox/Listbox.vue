@@ -375,6 +375,7 @@ export default {
     position: absolute;
     top: 50%;
     margin-top: -.5rem;
+    cursor: pointer;
 }
 
 .p-listbox-filter {
